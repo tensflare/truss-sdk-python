@@ -4,13 +4,22 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "truss-sdk"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python SDK for the Truss trust infrastructure API"
+readme = "README.md"
 requires-python = ">=3.9"
 license = "Apache-2.0"
+authors = [
+    { name = "Tensflare", email = "oss@tensflare.com" },
+]
 dependencies = [
     "pynacl>=1.6",
 ]
+
+[project.urls]
+Homepage = "https://truss.tensflare.com"
+Source = "https://github.com/tensflare/truss-sdk-python"
+BugTracker = "https://github.com/tensflare/truss-sdk-python/issues"
 
 [project.optional-dependencies]
 dev = [

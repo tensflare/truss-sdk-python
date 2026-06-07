@@ -1,13 +1,13 @@
 [build-system]
 requires = ["setuptools>=64"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "truss-sdk"
 version = "0.1.0"
 description = "Python SDK for the Truss trust infrastructure API"
 requires-python = ">=3.9"
-license = { text = "Apache-2.0" }
+license = "Apache-2.0"
 dependencies = [
     "pynacl>=1.6",
 ]
